@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0px;
+}
+
+.bg-container {
+    background-image: url("https://res.cloudinary.com/duapb449v/image/upload/v1679421254/Screenshot_4_blsufb.png");
+    height: 100vh;
+    background-size: cover;
+}
+
+.main-heading {
+    color: #fcffff;
+    padding-top: 10vh;
+    font-size: 7vh;
+    text-shadow: 4px 4px 8px #d40eb4;
+    font-family: "bree serif";
+    margin-bottom: 8vh;
+}
+
+.box-container {
+    text-align: center;
+    margin: auto;
+    margin-left: 34vw;
+}
+
+.box {
+    width: 11vw;
+    height: 20vh;
+    box-sizing: border-box;
+    display: flex;
+    border: solid;
+    border-color: #cdbcd6;
+}
+
+#box1 {
+    border-top: none;
+    border-left: none;
+}
+
+#box2 {
+    border-top: none;
+}
+
+#box3 {
+    border-top: none;
+    border-right: none;
+}
+
+#box4 {
+    border-left: none;
+}
+
+#box5 {}
+
+#box6 {
+    border-right: none;
+}
+
+#box7 {
+    border-left: none;
+    border-bottom: none;
+}
+
+#box8 {
+    border-bottom: none;
+}
+
+#box9 {
+    border-bottom: none;
+    border-right: none;
+}
+
+.Xstyling {
+    font-size: 72px;
+    color: #d93beb;
+    text-align: center;
+    display: flex;
+    text-shadow: -5px 0px 9px #bb7fa9;
+}
+
+.button {
+    text-align: right;
+    margin-right: 10vw;
+}
